@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Kaztomograph</title>
+  <meta name="title" content="Kaztomograph">
+  <meta name="description" content="Сервисный центр по ремонту медицинского, промышленного, цифрового и бытового оборудования.">
+
+ 
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  
+  <link rel="preload" as="image" href="./assets/images/hero-bg1.jpg">
+  <link rel="preload" as="image" href="./assets/images/photo1.jpg">
+  <link rel="preload" as="image" href="./assets/images/photo2.jpg">
+  <link rel="preload" as="image" href="./assets/images/photo3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="74" height="24" alt="Kaztomograph" class="logo-light">
+
+        <img src="./assets/images/logo.png" width="74" height="24" alt="Kaztomograph" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="74" height="24" alt="Kaztomograph">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Главная</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">О нас</a>
+          </li>
+
+          <li>
+            <a href="#cases" class="navbar-link">Кейсы</a>
+          </li>
+
+          <li>
+            <a href="#contacts" class="navbar-link">Контакты</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:kaztomograph@gmail.com" class="contact-link">kaztomograph@gmail.com</a>
+
+          <a href="tel:+77779990332" class="contact-link">+7 777 999 0332</a>
+        </div>
+
+        <ul class="social-list">
+
+
+          <li>
+            <a href="https://www.instagram.com/kaz_tomograph/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://wa.me/77779990332" target="_blank" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+      <a href="https://wa.me/77779990332" target="_blank" class="btn btn-primary">Whatsapp</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg1.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Kaztomograph</h1>
+
+            <p class="hero-text">
+              Сервисный центр по ремонту медицинского, промышленного, цифрового и бытового оборудования.
+            </p>
+
+            <div class="btn-wrapper">
+            
+              <a href="#about" class="btn btn-primary">Наши услуги</a>
+            
+              <a href="#contacts" class="btn btn-outline">Оставить заявку</a>
+            
+            </div>
+
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/photo1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/photo2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/photo3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label" id="about">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">Что мы делаем?</p>
+
+          <h2 class="h2 section-title">
+            Наши услуги разработаны так, чтобы максимально соответствовать вашим задачам.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">24/7 Поддержка</h3>
+
+                <p class="card-text">
+                  Мы всегда на связи — оперативно консультируем, принимаем заявки и сопровождаем клиентов на каждом этапе ремонта.
+                </p>
+
+                <!--<a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>-->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Гарантированное качество</h3>
+
+                <p class="card-text">
+                  Мы обеспечиваем надежный ремонт с соблюдением всех технических требований и стандартов безопасности.
+                </p>
+
+                <!--<a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>-->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Оперативное обслуживание</h3>
+
+                <p class="card-text">
+                  Мы регулярно обновляем информацию о статусе ремонта и предоставляем прозрачный процесс работы.
+                </p>
+
+                <!--<a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>-->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Диагностика и техническая экспертиза</h3>
+
+                <p class="card-text">
+                  Проводим углублённую диагностику оборудования для выявления причин неисправностей и подбора оптимального решения.
+                </p>
+
+                <!--<a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>-->
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Почему выбирают нас?</p>
+
+            <h2 class="h2 section-title">
+              Мы предлагаем эффективные технические решения, которые упрощают работу и повышают надежность вашего оборудования.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Профессиональный подход</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Мы обеспечиваем качественный ремонт и обслуживание, используя современные технологии, точные методы диагностики и опыт наших сертифицированных специалистов.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Поддержка на каждом этапе</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Мы всегда на связи — от первой консультации до завершения ремонта. Объясняем, показываем и сопровождаем, чтобы вы были уверены в результате.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Надёжные комплектующие</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Мы используем оригинальные и проверенные запчасти, что гарантирует длительный срок службы оборудования после ремонта.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Наши решения</p>
+
+            <h2 class="h2 section-title">
+              Комплексный ремонт и обслуживание медицинского, промышленного и цифрового оборудования.
+            </h2>
+
+            <p class="section-text">
+               Мы специализируемся на диагностике, восстановлении и модернизации оборудования любой сложности. 
+  Наши инженеры работают с точными электронными системами, промышленными узлами и медицинскими устройствами, 
+  обеспечивая быстрый и безопасный ремонт с гарантией.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Профессиональная диагностика оборудования всех типов.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Ремонт на компонентном уровне — от электроники до механики.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Используем оригинальные или проверенные комплектующие.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Гарантия на выполненные работы и поддержка после ремонта.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+      
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg1.jpg')">
+      
+            <li>
+              <p class="card-text">
+                <span class="h1">100+</span>
+                <span class="span">Выполненных ремонтов</span>
+              </p>
+            </li>
+      
+            <li>
+              <p class="card-text">
+                <span class="h1">100+</span>
+                <span class="span">Довольных клиентов</span>
+              </p>
+            </li>
+      
+            <li>
+              <p class="card-text">
+                <span class="h1">10 лет</span>
+                <span class="span">Опыт работы инженеров</span>
+              </p>
+            </li>
+      
+            <li>
+              <p class="card-text">
+                <span class="h1">95%</span>
+                <span class="span">Успешность восстановления</span>
+              </p>
+            </li>
+      
+          </ul>
+      
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="cases">
+  <div class="container">
+
+    <p class="section-subtitle" id="project-label">Наши кейсы</p>
+
+    <h2 class="h2 section-title">
+      Посмотрите примеры выполненных работ — от сложной диагностики до полного восстановления оборудования.
+    </h2>
+
+    <div class="project-slider">
+
+      <button class="slider-arrow slider-arrow-prev" aria-label="Предыдущий кейс">
+        <ion-icon name="chevron-back-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="slider-window">
+        <ul class="grid-list slider-track">
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/phillips.jpg" width="560" height="350" loading="lazy"
+                  alt="Ligula tristique quis risus" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Инсталляция МРТ Philips Ingenia Ambition 3.0T</a>
+                </h3>
+
+                <p class="card-text">
+                  Мы установили первый в Казахстане безгелиевый МРТ Philips Ingenia Ambition 3.0T. Полный монтаж, настройка и ввод в эксплуатацию аппарата в Астане.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/phillips2.jpg" width="560" height="350" loading="lazy"
+                  alt="Nullam id dolor elit id nibh" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Обслуживание КТ Philips Ingenuity 128</a>
+                </h3>
+
+                <p class="card-text">
+                  Провели полную диагностику и техническое обслуживание томографа Philips Ingenuity 128 для обеспечения стабильной и безопасной работы.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs3.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Очистка фильтров гентри КТ</a>
+                </h3>
+
+                <p class="card-text">
+                  Показали разницу между чистыми и загрязнёнными фильтрами КТ. Загрязнение может привести к перегреву и дорогостоящему ремонту — регулярное ТО обязательно!
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs4.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ремонт ПЭТ-КТ Philips Gemini GXL</a>
+                </h3>
+
+                <p class="card-text">
+                  Устранили неисправность, восстановили работу аппарата и провели контрольную калибровку. ПЭТ-КТ полностью готов к эксплуатации.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs5.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Демонтаж КТ Philips Brilliance 16</a>
+                </h3>
+
+                <p class="card-text">
+                  Аккуратно демонтировали КТ Brilliance 16 с ИБП 100 кВА. Также доступны рабочие б/у комплектующие для семейства Brilliance CT.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs6.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ремонт 12-канального ЭКГ-аппарата</a>
+                </h3>
+
+                <p class="card-text">
+                  Исправили проблему с отведениями, устранили скачки и ошибки. Стоимость ремонта — всего 5000₸. Клиент получил полностью рабочий аппарат.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs7.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ремонт коллиматора Philips Brilliance CT64</a>
+                </h3>
+
+                <p class="card-text">
+                  Отремонтировали коллиматор, заменили компоненты и откалибровали систему. Клиент сэкономил 22 млн₸ — ремонт стоил 3 млн₸. Дали фирменную гарантию.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs8.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ремонт High Speed Starter для CT16</a>
+                </h3>
+
+                <p class="card-text">
+                  Заменили неисправные компоненты блока High Speed Starter и полностью восстановили работу томографа. Клиент получил гарантию на ремонт.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs9.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ремонт УЗИ Sonoscape S20</a>
+                </h3>
+
+                <p class="card-text">
+                  Аппарат не включался. Устранили проблему в цепи питания кнопки включения. Клиент сэкономил: ремонт — 50 000₸ вместо замены БП или матплаты.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs10.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Замена вентилятора блока DMS на CT64</a>
+                </h3>
+
+                <p class="card-text">
+                  Во время ТО выявили сбой вентилятора охлаждения. Заменили вовремя — предотвратили возможный перегрев матплаты и дорогостоящий ремонт.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs11.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ремонт УЗИ Mindray DC-30</a>
+                </h3>
+
+                <p class="card-text">
+                  Исправили проблему качества изображения и провели инструктаж для персонала. Стоимость ремонта — всего 15 000₸. Аппарат работает идеально.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs12.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ремонт дентального рентген-аппарата</a>
+                </h3>
+
+                <p class="card-text">
+                  Переустановили ПО, откалибровали систему и восстановили корректную работу аппарата. Клиент доволен результатом.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs13.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ремонт кардиомонитора MEC-100</a>
+                </h3>
+
+                <p class="card-text">
+                  Диагностировали неисправность компонентов материнской платы, устранили дефект и восстановили функционал кардиомонитора.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs14.png" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Замена материнской платы и обновление ПО</a>
+                </h3>
+
+                <p class="card-text">
+                  Провели замену матплаты, обновили программное обеспечение — оборудование снова стабильно работает в клинике.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs15.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Поставка и установка мобильного рентген-аппарата</a>
+                </h3>
+
+                <p class="card-text">
+                  Произвели поставку, установку и обучение по работе с мобильным рентген-аппаратом Drgem. Аппарат успешно введён в эксплуатацию.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs16.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Диагностика и ремонт CT16</a>
+                </h3>
+
+                <p class="card-text">
+                  Выявили неисправность Spindle Block — заменили на новый. Выполнили полную калибровку. Томограф снова в рабочем режиме.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="project-card">
+
+              <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                <img src="./assets/images/cs17.jpg" width="560" height="350" loading="lazy"
+                  alt="Ultricies fusce porta elit" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ремонт компрессора медицинского аппарата</a>
+                </h3>
+
+                <p class="card-text">
+                  После диагностики обнаружили отказ компрессора. Устранили неисправность в течение одного дня — оборудование полностью восстановлено.
+                </p>
+
+                <!--<ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                    <span class="meta-text">Coding</span>
+                  </li>
+                </ul>-->
+
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <button class="slider-arrow slider-arrow-next" aria-label="Следующий кейс">
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="Оставить заявку на сервис" id="contacts">
+  <div class="container cta-inner">
+
+    <div class="cta-text">
+      <p class="section-subtitle">Нужна диагностика или ремонт?</p>
+
+      <h2 class="h2 section-title">
+        Оставьте заявку в WhatsApp — подберём решение и ориентировочную стоимость за 10–15 минут.
+      </h2>
+
+      <p class="cta-desc">
+        Отправьте фото оборудования или кратко опишите проблему. Наш инженер свяжется с вами,
+        уточнит детали и предложит варианты ремонта.
+      </p>
+    </div>
+
+    <div class="cta-actions">
+      <a href="https://wa.me/77779990332" target="_blank" class="btn btn-primary">
+        Написать в WhatsApp
+      </a>
+
+      <p class="cta-actions">
+        Работаем ежедневно с 9:00 до 18:00
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <h2>
+          Kaztomograph
+        </h2>
+
+        <p class="footer-text">
+          2025<br> 
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Контактные данные</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Альмукан Сембинов улица, 7
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">kaztomograph@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">+7‒771‒630‒11‒34</a>
+          <a href="#" class="footer-link">+7-777-999-03-32</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d312.7180897568403!2d71.44787430262166!3d51.16849560207669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skz!4v1764598852561!5m2!1sru!2skz"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Наш инстаграм</p>
+
+        <p class="footer-text">
+          Подпишитесь на наш инстаграм, чтобы получать наши новости и предложения.
+        </p>
+
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
